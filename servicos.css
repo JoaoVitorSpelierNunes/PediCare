@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color:   #d0fdd7;
+}
+
+/* Barra de navegação */
+header{
+    width: 100%;
+    height: 20%;
+    background-color: #d0fdd7 ;
+    align-items: center;
+}
+#logo{
+    width: 350px;
+    height: 100px;
+}
+#icons{
+    width: 80px;
+    height: 80px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* padding-top: 5%; */
+    padding-right: 5%;
+}
+.linha-preta {
+    border-top: 5px solid black;
+    width: 100%;
+  }
+h1{
+    font-size: 2.8em;
+    text-align: center;
+}
+
+h2{
+    font-size: 1.3em;
+    text-align: center;
+}
+.nav-logo{
+    list-style: none;
+    display: flex;
+}
+.nav-bar{
+    list-style: none;
+    display: flex;
+}
+.nav-bar li{
+    padding-left: 10%;
+}
+
+a{  
+    text-decoration: none;
+    transition: 0.2s;
+    cursor: pointer;
+}
+@media screen and (max-width:600px){
+    header{
+        width: 100%;
+        height: 20%;
+        background-color: #d0fdd7 ;
+        align-items: center;
+    }
+    #logo{
+        width: 100px;
+        height: 25px;
+    }
+    #icons{
+        width: 20px;
+        height: 20px;
+    }
+    nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-right: 5%;
+    }
+    .linha-preta {
+        border-top: 1px solid black;
+        width: 100%;
+      }
+    h1{
+        font-size: 1em;
+        text-align: center;
+    }
+    
+    h2{
+        font-size: 0.5em;
+        text-align: center;
+    }
+    .nav-logo{
+        list-style: none;
+        display: flex;
+    }
+    .nav-bar{
+        list-style: none;
+        display: flex;
+    }
+    .nav-bar li{
+        padding-left: 7%;
+    }
+    a{  
+        text-decoration: none;
+        transition: 0.2s;
+    }
+
+}
+/* Conteúdo Principal */
+
+.imagem{
+    display: absolute;
+    background-color: #d0fdd7;
+    width: 100%;
+    height: 600px;
+    justify-content: space-around;
+    align-items: center;
+}
+.imagem img{
+    height: 500px;
+    width: 500px;
+    margin-left: 100px;
+}
+.linha-verde {
+    border-top: 5px solid #64c27b;
+    width: 100%;
+  }
+
+  main{
+    width: 100%;
+    height: 100%;
+    background-color:  #d0fdd7;
+    justify-content: center;
+    display: flex;
+  }
+  main h1{
+    text-align: center;
+  }
+  main p{
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size: 1.2em;
+  }
+  main img{
+    width: 800px;
+    height: 500px;
+  }
+  .main-icons{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+.main-icons li{
+    margin-left: 100px;
+    padding-right: 15%;
+    padding-top: 5%;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+.main-icons h2{
+    text-align: center;
+    margin-left: 100px;
+}
+
+  @media screen and (max-width:600px){
+    .imagem{
+        display: grid;
+        background-color: #d0fdd7;
+        width: 100%;
+        height: 1000px;
+        justify-content: space-around;
+        justify-content: center;
+        align-items: center;
+    }
+    .imagem img{
+        
+        height: 250px;
+        width: 250px;
+        margin-left: -80px;
+    }
+    .imagem h1{
+        text-align: center;
+    }
+    .linha-verde {
+        border-top: 1px solid #64c27b;
+        width: 100%;
+      }
+    
+      main{
+        width: 100%;
+        height: 100%;
+        background-color:  #d0fdd7;
+        display: flex;
+      }
+      main h1{
+        margin-top: 50px;
+        text-align: center;
+      }
+      main p{
+        text-align: center;
+        padding-left: 15%;
+        padding-right: 15%;
+        font-size: 0.8em;
+      }
+      main img{
+        width: 250px;
+        height: 150px;
+      }
+      .main-icons{
+        list-style: none;
+        display:grid;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-around;
+        text-align: center;
+    }
+        .main-icons li{
+        padding-top: 30%;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-around;
+    }
+    .main-icons h2{
+        text-align: center;
+        margin-left: -80px;
+        font-size: 1em;
+    }
+    .main-icons #icons{
+        width: 100px;
+        height: 100px;
+        justify-content: center;
+    }
+  }
+  
