@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    /* background-color:   #d0fdd7; */
+    background-color:   #d0fdd7;
 }
 
 /* Barra de navegação */
@@ -107,113 +107,42 @@ a{
 
 }
 
+/* Conteúdo Principal */
 
-
-
-.formulario  .titulo { 
-
-    font-size: 1.5em;
-    margin-bottom: 10px;
-    padding-bottom: 10px;
-  
-  }
-  
-  .formulario {
-     
-    max-width: 500px;
-    margin: auto;
-    background: white;
-    overflow: hidden;
-    padding: 20px;
-  
-  
-  }
-  
-  :focus{outline: none;}
-  
-  .label { 
-  
-    float: left; 
-    width: 100%; 
-    margin-bottom: 25px; 
-    position: relative;
-  
-  }
-  
-  .input-bordas{
-    
-    font: 15px/24px "Lato", Arial, sans-serif; 
-    color: #333; 
-    width: 100%; 
-    box-sizing: border-box; 
-    letter-spacing: 1px;
-    border: 1px solid #ccc; 
-    padding: 7px 14px 9px; 
-    transition: 0.4s;
-  
-  }
-  
-  .textarea { resize:none!important; }
-  
-  .button-form { 
-  
-    background-color: #39f;
-    padding: 0.5em 1.3em;
-    color: #fff;
-    font-size: 1.2em;
-    border: none;
-    cursor: pointer;
-  
-  }
-  
-  .borda-inversa:hover, .borda-inversa:focus, .borda-inversa:active {
-    
-    background: none;
-    color:#39f; 
-  
-  }
-
-  .mapa{
-    padding-top: 5%;
-    padding-bottom: 5%;
-    display: flex;
-    justify-content: center;
-  }
-  iframe{
-    width: 800px;
-    height: 500px;
-  }
-
-  .hora{
+main{
     justify-content: center;
     text-align: center;
-    padding-bottom: 5%;
-    padding-top: 5%;
-  }
-  .hora p{
+}
+main h1{
+    font-size: 5em;
+}
+main p{
     font-size: 1.8em;
-  }
+    margin-left: 350px;
+    margin-right: 350px;
+    padding-bottom: 5%;
+}
+main img{
+    height: 500px;
+    width: 900px;
+}
 
-  @media screen and (max-width:600px){
-    .mapa{
-        padding-top: 10%;
-        display: flex;
-        justify-content: center;
-      }
-      iframe{
-        width: 300px;
-        height: 250px;
-      }
-      .hora{
+@media screen and (max-width:600px){
+    main{
         justify-content: center;
         text-align: center;
-        padding-bottom: 5%;
-        padding-top: 5%;
-      }
-      .hora h1{
+    }
+    main h1{
         font-size: 2em;
-      }
-      .hora p{
-        font-size: 1.2em;
-      }
-  } 
+    }
+    main p{
+        font-size: 0.8em;
+        margin-left: 50px;
+        margin-right: 50px;
+        padding-bottom: 5%;
+    }
+    main img{
+        height: 150px;
+        width: 300px;
+    }
+}
