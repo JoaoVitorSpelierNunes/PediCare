@@ -17,7 +17,7 @@ No nosso site, você encontrará uma ótima página inicial toda caracterizada d
 
 Trocar as imagens
 ## Layout mobile
-![Mobile 1](https://github.com/acenelio/assets/raw/main/sds1/mobile1.png](https://github.com/JoaoVitorSpelierNunes/PediCare/blob/main/imagem_2023-12-15_213658257.png)) 
+![Mobile 1](https://github.com/JoaoVitorSpelierNunes/PediCare/blob/main/imagem_2023-12-15_213658257.png) 
 
 ![Mobile 2](https://github.com/acenelio/assets/raw/main/sds1/mobile2.png)
 
