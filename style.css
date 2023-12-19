@@ -24,7 +24,7 @@ nav{
     justify-content: space-around;
     align-items: center;
     /* padding-top: 5%; */
-    padding-right: 5%;
+    padding-right: 10%;
 }
 .linha-preta {
     border-top: 5px solid black;
@@ -74,7 +74,7 @@ a{
         display: flex;
         justify-content: space-around;
         align-items: center;
-        padding-right: 5%;
+        padding-right: 10%;
     }
     .linha-preta {
         border-top: 1px solid black;
