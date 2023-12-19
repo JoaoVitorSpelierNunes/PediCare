@@ -1,5 +1,12 @@
-var botao = document.getElementById("botao");
+function submitForm() {
+  var name = document.getElementById('name').value;
+  var email = document.getElementById('email').value;
+  var message = document.getElementById('message').value;
 
-botao.addEventListener("click", function() {
-  alert("Enviado");
-});
+  if (name !== '' && email !== '' && message !== '') {
+    alert("Enviado");
+  } else {
+    alert('Por favor, preencha todos os campos.');
+  }
+}
+

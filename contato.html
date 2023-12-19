@@ -58,20 +58,20 @@
         
         <div class="linha-preta"></div>
 
-        <form class="formulario" method="dialog">
+        <form class="formulario" id="contactForm">
         
             <h2 class="titulo">Formulário de Contato</h2>
     
             <label class="label">
                 
-                <input type="text" class="input-bordas" placeholder="Nome" required="">
+                <input type="text" class="input-bordas" placeholder="Nome" required="" id="name">
                 <span class="focus-border"> <i></i> </span>
             
             </label>
     
             <label class="label">
                 
-                <input type="email" class="input-bordas" placeholder="E-mail" required="">
+                <input type="email" class="input-bordas" placeholder="E-mail" required="" id="email">
                 <span class="focus-border"> <i></i> </span>
             
             </label>
@@ -85,12 +85,12 @@
     
             <label class="label">
                 
-                <textarea type="text" class="input-bordas textarea" rows="4" placeholder="Mensagem" required=""></textarea>
+                <textarea type="text" class="input-bordas textarea" rows="4" placeholder="Mensagem" required="" id="message"></textarea>
                 <span class="focus-border"> <i></i> </span>
             
             </label>
     
-            <button id="botao" class="button-form borda-inversa"> Enviar</button>
+            <button class="button-form borda-inversa" onclick="subitForm()" id="submitButton"> Enviar</button>
             <script src="script.js"></script>
     
     
